@@ -4,12 +4,13 @@
 
 
 
-[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/array-copyWithin/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/gearcase/array-copyWithin/blob/master/LICENSE)
 
-[![build:?](https://img.shields.io/travis/bubkoo/array-copyWithin/master.svg?style=flat-square)](https://travis-ci.org/bubkoo/array-copyWithin)
-[![coverage:?](https://img.shields.io/coveralls/bubkoo/array-copyWithin/master.svg?style=flat-square)](https://coveralls.io/github/bubkoo/array-copyWithin)
+[![build:?](https://img.shields.io/travis/gearcase/array-copyWithin/master.svg?style=flat-square)](https://travis-ci.org/gearcase/array-copyWithin)
+[![coverage:?](https://img.shields.io/coveralls/gearcase/array-copyWithin/master.svg?style=flat-square)](https://coveralls.io/github/gearcase/array-copyWithin)
 
 The `copyWithin()` method copies the sequence of array elements within the array to the position starting at target. The copy is taken from the index positions of the second and third arguments start and end. The end argument is optional and defaults to the length of the array.
+
 
 
 ## Install
@@ -17,6 +18,7 @@ The `copyWithin()` method copies the sequence of array elements within the array
 ```
 $ npm install --save copyWithin
 ```
+
 
 ## Usage
 
@@ -36,6 +38,7 @@ copyWithin({ length: 5, 3: 1, 4: 0 }, 0, 3);
 // => {0: 1, 1: 0, 3: 1, 4: 0, length: 5 }
 ```
 
+
 ## API
 
 ### copyWithin(array, start[, end = array.length])
@@ -53,10 +56,11 @@ If `start` is negative, it is treated as `length + start` where `length` is the 
 The `copyWithin` function is intentionally *generic*, it does not require that its this value be an [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) object and in addition, copyWithin is a *mutable method*, it will change this object itself, and return it, not just return a copy of it.
 
 
+
 ## Contributing
  
 Pull requests and stars are always welcome. 
 
-For bugs and feature requests, please [create an issue](https://github.com/bubkoo/array-copyWithin/issues).
+For bugs and feature requests, please [create an issue](https://github.com/gearcase/array-copyWithin/issues).
    
 But before doing anything, please read the [CONTRIBUTING](https://github.com/tunnckocore/starts-with/blob/master/CONTRIBUTING.md) guidelines.

@@ -1,6 +1,6 @@
 {
   "name": "copywithin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Polyfill for Array.prototype.copyWithin.",
   "main": "index.js",
   "scripts": {
@@ -29,12 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bubkoo/array-copyWithin.git"
+    "url": "git+https://github.com/gearcase/array-copyWithin.git"
   },
   "bugs": {
-    "url": "https://github.com/bubkoo/array-copyWithin/issues"
+    "url": "https://github.com/gearcase/array-copyWithin/issues"
   },
-  "homepage": "https://github.com/bubkoo/array-copyWithin#readme",
+  "homepage": "https://github.com/gearcase/array-copyWithin#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
